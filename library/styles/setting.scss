@@ -1,0 +1,86 @@
+@charset "utf-8";
+$header_height:80px;
+$nav_height:35px;
+$content_width:1024px;
+$image_width: 1196px;
+$sky_blue:"23,226,218,0.46";
+
+
+
+// ===================================================================
+// mixinやらCSS3やら、extendも。
+// ===================================================================
+$set_prefix: -webkit-, -moz-, -ms-, -o-, '';
+// box-sizing
+@mixin box_sizing{
+  @each $prefix in $set_prefix {
+    #{$prefix}box-sizing: border-box;
+  }
+}
+
+// border-radius
+@mixin border_radius($br_value) {
+  @each $prefix in $set_prefix {
+    #{$prefix}border-radius: $br_value;
+  }
+}
+
+@mixin text_shadow($h,$v,$s,$color) {
+  @each $prefix in $set_prefix {
+    #{$prefix}text-shadow: $h $v $s $color;
+  }
+}
+
+// background-size
+@mixin bg_size($w, $h: auto) {
+  @each $prefix in $set_prefix {
+    #{$prefix}background-size: $w $h;
+  }
+}
+
+//box-shadow
+@mixin box_shadow($h: 5px,$v: 5px,$s: 5px,$e: 0px, $color: #333) {
+  @each $prefix in $set_prefix {
+    #{$prefix}box-shadow: $h $v $s $e $color;
+  }
+}
+
+//box-shadow-inset
+@mixin box_shadow-inset($h: 5px,$v: 5px,$s: 5px,$e: 0px, $color: #333) {
+  @each $prefix in $set_prefix {
+    #{$prefix}box-shadow: $h $v $s $e $color inset;
+  }
+}
+
+// transform rotate
+@mixin rotate($rotate:-3deg) {
+  @each $prefix in $set_prefix {
+    #{$prefix}transform: rotate($rotate)
+  }
+}
+
+// min-height
+@mixin min_height($value) {
+  min-height: $value;
+  _height: $value;
+}
+
+// appearance-button
+@mixin appearance-button{
+  @each $prefix in $set_prefix {
+    #{$prefix}appearance: button;
+  }
+}
+
+/* clearfix */
+.clearfix {
+  *zoom: 1;
+  &:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+  }
+}
+

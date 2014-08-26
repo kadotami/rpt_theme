@@ -1,0 +1,16 @@
+/*
+Theme Name: RPT
+Theme URI:
+Author: kadotami
+Author URI: http://kdtm.modern-min.net/
+Description: kdtm
+Version: 1.0
+*/
+@import 'assets/stylesheets/menu.css';
+@import 'assets/stylesheets/post.css';
+@import 'assets/stylesheets/side_menu.css';
+@import 'assets/stylesheets/template.css';
+@import 'assets/stylesheets/header_back.css';
+@import 'assets/stylesheets/profile.css';
+
+
