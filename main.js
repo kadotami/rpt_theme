@@ -1,0 +1,1 @@
+(function(){SpSlidemenu({main:"#main",button:".menu-button-left",slidemenu:".slidemenu-left",direction:"left"})}).call(this),function(){console.log("sampleああああ")}.call(this);

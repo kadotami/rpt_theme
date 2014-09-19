@@ -2,32 +2,33 @@
 <html lang="ja">
 <head>
 	<meta charset="utf-8">
-	<title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
+	<title>RolePlayingTsuwano</title>
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
-	<?php wp_enqueue_script('jquery.js', get_bloginfo('template_url').'/js/jquery.js'); ?>
-	<?php wp_enqueue_script('functions', get_bloginfo('template_url').'/js/functions.js'); ?>
+	<?php wp_enqueue_script('sp-slidemenu.js', get_bloginfo('template_url').'/assets/javascripts/sp-slidemenu.js'); ?>
+	<?php wp_enqueue_script('main.js', get_bloginfo('template_url').'/assets/javascripts/main.js'); ?>
+	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 	<script>
 	</script>
 </head>
 <body>
-	<div class="header-back-image">
-		<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/header_back.png">
-	</div>
-	<div id="header">
-		<div id="header_contents">
-			<div id="title">RPT</div>
-		</div>
-	</div>
-	<div id="nav">
-		<ul>
-			<li><a href="/">TOP</a></li>
-			<li><a href="/profile">PROFILE</a></li>
-			<li><a href="/hobby">HOBBY</a></li>
-		</ul>
-		<div class="clear-both"></div>
-	</div>
-
-	<div id="page_navigator"></div>
-
+	<div class="slidemenu slidemenu-left">
+    <div class="slidemenu-header">
+      <div>
+        Header
+      </div>
+    </div>
+    <div class="slidemenu-body">
+      <ul class="slidemenu-content">
+        <li><a class="menu-item" href="http://google.com">Menu 1</a></li>
+        <li><a class="menu-item" href="http://google.com">Menu 2</a></li>
+        <li><a class="menu-item" href="http://google.com">Menu 3</a></li>
+      </ul>
+    </div>
+  </div>
+  <header id="header">
+    <span class="button menu-button-left">
+    </span>
+  </header>
+	<div id="main">
 <?php wp_head(); ?>
 
