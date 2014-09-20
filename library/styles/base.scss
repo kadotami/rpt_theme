@@ -9,11 +9,26 @@ body {
   overflow-x: hidden;
 }
 
+h2,h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .clear-both {
   clear: both;
 }
+
+.font-bold {
+  font-weight: bold;
+}
 #main {
   z-index: 1;
+  position: relative;
+  padding-top: $header_height;
+  width: 100%;
+  max-width: $content_width;
+  margin:0 auto;
+  overflow: scroll;
 }
 .slidemenu {
   top: 0;
@@ -41,25 +56,17 @@ body {
   top: 0;
   width: 100%;
   height: $header_height;
-  max-width: $content_width;
   z-index: 10;
   overflow: none;
 }
 
-.button {
-  width: 49px;
-  height: 49px;
+.header-button {
+  width: 36px;
+  height: 36px;
   position: absolute;
   display: block;
   background-repeat: no-repeat;
+  background-image: url('../images/menu_button_back.png');
   background-position: center;
 }
 
-#contents{
-  position: relative;
-  padding-top: $header_height;
-  width: 100%;
-  max-width: $content_width;
-  margin:20px 20px;
-  overflow: scroll;
-}

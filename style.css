@@ -6,11 +6,11 @@ Author URI: http://kdtm.modern-min.net/
 Description: kdtm
 Version: 1.0
 */
-@import 'assets/stylesheets/menu.css';
-@import 'assets/stylesheets/post.css';
-@import 'assets/stylesheets/side_menu.css';
+@import 'assets/stylesheets/base.css';
+@import 'assets/stylesheets/access.css';
+@import 'assets/stylesheets/top.css';
 @import 'assets/stylesheets/template.css';
-@import 'assets/stylesheets/header_back.css';
+@import 'assets/stylesheets/about.css';
 @import 'assets/stylesheets/profile.css';
 
 

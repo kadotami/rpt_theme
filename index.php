@@ -3,6 +3,7 @@
 	<div id="container">
 		<div id="contents">
 			<div id="posts">
+
 				<?php
 				if(have_posts()) :
 					while(have_posts()) :

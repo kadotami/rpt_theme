@@ -14,7 +14,7 @@
 	<div class="slidemenu slidemenu-left">
     <div class="slidemenu-header">
       <div>
-        Header
+        Menu
       </div>
     </div>
     <div class="slidemenu-body">
@@ -26,7 +26,7 @@
     </div>
   </div>
   <header id="header">
-    <span class="button menu-button-left">
+    <span class="header-button menu-button-left">
     </span>
   </header>
 	<div id="main">
