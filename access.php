@@ -16,7 +16,7 @@ Template Name: Access
   <h3>公共交通機関を利用する</h3>
   <div class='map-image-area'>
   </div>
-  <h2>津和野dでの移動</h2>
+  <h2>津和野での移動</h2>
   <ul class='icon-description'>
     <li>=受付事務所</li>
     <li>=駐車場</li>
