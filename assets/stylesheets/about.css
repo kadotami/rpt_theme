@@ -3,5 +3,32 @@
   padding: 20px 30px;
   background: #ddd; }
 
-.about-how-to-play {
+.about-how-to-play p {
   padding: 20px 30px; }
+.about-how-to-play .four-actions {
+  position: relative;
+  margin-top: 30px;
+  padding: 20px 0; }
+  .about-how-to-play .four-actions .action-title {
+    width: 92%;
+    margin: 0 4%;
+    background: #223366; }
+  .about-how-to-play .four-actions table {
+    width: 90%;
+    margin: 0 5%; }
+    .about-how-to-play .four-actions table tr td:first-child {
+      width: 40%; }
+      .about-how-to-play .four-actions table tr td:first-child img {
+        width: 100%; }
+    .about-how-to-play .four-actions table tr td:nth-child(2) {
+      color: #fff;
+      padding: 5px;
+      background: #333;
+      opacity: 0.8; }
+.about-how-to-play .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+  .about-how-to-play .background-image img {
+    width: 100%; }

@@ -1,0 +1,18 @@
+.story-detail-block {
+  width: 94%;
+  margin: 30px 3%;
+  tr {
+    width: 100%;
+    td {
+      vertical-align: middle;
+      font-size: 13px;
+      line-height: 1.4em;
+    }
+    td:first-child {
+      width: 40%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

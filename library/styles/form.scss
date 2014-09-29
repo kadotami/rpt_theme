@@ -1,0 +1,20 @@
+#booking-form {
+  font-size: 12px;
+  margin-top: 20px;
+  legend,fieldset {
+    padding: 0;
+  }
+  table {
+    label {
+      font-size: 11px;
+    }
+    input {
+      width: 90%;
+    }
+  }
+  button {
+    width: 80%;
+    height: 25px;
+    margin: 20px 10%;
+  }
+}

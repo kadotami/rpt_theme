@@ -2,6 +2,7 @@
 <div class='title-image news-title'>
 <img src="/assets/images/news-title.png">
 </div>
+<h3 class="fontN">ROLE PLAYING TSUWANO の最新情報</h3>
 <?php
 	if(have_posts()) :
 		while(have_posts()) :
@@ -39,6 +40,11 @@
 	<div class="prev"><?php previous_posts_link();?></div>
 	<div class="next"><?php next_posts_link();?></div>
 </div>
+
+<ul class="bottom-menu">
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+</ul>
 
 <?php get_footer(); ?>
 </body>

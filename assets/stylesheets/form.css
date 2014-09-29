@@ -1,0 +1,13 @@
+#booking-form {
+  font-size: 12px;
+  margin-top: 20px; }
+  #booking-form legend, #booking-form fieldset {
+    padding: 0; }
+  #booking-form table label {
+    font-size: 11px; }
+  #booking-form table input {
+    width: 90%; }
+  #booking-form button {
+    width: 80%;
+    height: 25px;
+    margin: 20px 10%; }

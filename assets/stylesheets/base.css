@@ -14,7 +14,8 @@ body {
   font-family: Arial;
   min-height: 100%;
   width: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  line-height: 1.4em; }
 
 li {
   list-style: none; }
@@ -22,6 +23,9 @@ li {
 h2, h3, h4 {
   margin-bottom: 10px;
   text-align: center; }
+
+img {
+  vertical-align: bottom; }
 
 .clear-both {
   clear: both; }

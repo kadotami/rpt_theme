@@ -1,0 +1,16 @@
+@charset "utf-8";
+@font-face {  font-family: "myFontExtraLight";  src: url("font/SourceHanSansJP-ExtraLight.woff") format('woff');}
+@font-face {  font-family: "myFontLight";  src: url("font/SourceHanSansJP-Light.woff") format('woff');}
+@font-face {  font-family: "myFontNormal";  src: url("font/SourceHanSansJP-Normal.woff") format('woff'); }
+@font-face {  font-family: "myFontRegular";  src: url("font/SourceHanSansJP-Regular.woff") format('woff');}
+@font-face {  font-family: "myFontMedium";  src: url("font/SourceHanSansJP-Medium.woff") format('woff'); }
+@font-face {  font-family: "myFontBold";  src: url("font/SourceHanSansJP-Bold.woff") format('woff');}
+@font-face {  font-family: "myFontHeavy";  src: url("font/SourceHanSansJP-Heavy.woff") format('woff');}
+.fontEL {  font-family: "myFontExtraLight";}
+.fontL {  font-family: "myFontLight";}
+.fontN {  font-family: "myFontNormal";}
+.fontR {  font-family: "myFontRegular";}
+.fontM {  font-family: "myFontMedium";}
+.fontB {  font-family: "myFontBold";}
+.fontH {  font-family: "myFontHeavy";}
+.font-white { color: #fff;}

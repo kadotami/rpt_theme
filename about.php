@@ -8,25 +8,33 @@ Template Name: About
 <img src="/assets/images/about-title.png">
 </div>
 
+<h4 class="fontN">ROLE PLAYING TSUWANO についてと遊び方</h4>
 <div class='about-gray-area'>
-  <h3>ごあいさつ</h3>
-  <p>みなさま、はじめまして。
-    ROLE PLAYING TSUWANOです。
-    この遊びは、津和野という城下町を、ほかではめぐり会えない
-    特別な機会として楽しんで欲しくて創りました。
-    私たちはとにかく「面白いコト」を、小さな田舎町で実現していきたいです。
-    都会も面白いけれど「コッチのが面白いんだ!」と
-    誰かが呟くワクワクした日曜日を創りたいと考えています。
-    もちろん土曜日でも。
-    ともあれ、津和野でみなさまと一緒に遊びたいのです。
-    それで、もし、この津和野という町がアナタにとっての特別な町となれば、
-    とてもとても嬉しいです。
+  <h3 class="fontH">ごあいさつ</h3>
+  <p class="fontEL">
+    ロールプレイングツワノは、若い世代が「津和野いいよね！」
+    と語って楽しんで欲しい、という想いから始まりました。
+  </p>
+  <p class="fontEL">
+    城下町である津和野は、町中が文化財として保存され、
+    昔ながらの城下町文化が色濃く残っています。
+    長い年月をかけた町の物語が、
+    今もなお紡がれ続けつながっています。
+    秘境のような山間の小さな町だからこそ、
+    人どうしの距離が近く、つながっているのかもしれません。
+  </p>
+  <p class="fontEL">
+    世界を変えるような大事件はありませんが、どこか不思議な、
+    じんわり面白い、かすかに悲しい、ちょっとすごい、
+    そんな愛嬌のある物語が津和野にちりばめられています。そんな物語を、
+    いつもと違う町中でいつもと違うシチュエーションで楽しむ。
+    まるで、町の秘密を覗き込むような、おかしな非日常をお楽しみください。
   </p>
 </div>
 
 <div class='about-gray-area'>
-  <h3>サービスの詳細</h3>
-  <p>
+  <h3 class="fontH">サービスの詳細</h3>
+  <p class="fontEL">
     料金   :¥1,500(予約なしの場合¥1,800)<br>
     かかる時間:制限時間は4時間です(食事時間含む)<br>
     参加の仕方:SCHEDULEページから予約をしてください<br>
@@ -39,12 +47,76 @@ Template Name: About
 </div>
 
 <div class='about-how-to-play'>
-  <h2>ゲームの遊び方</h2>
-  <h3>はじめに</h3>
-  <p>
+  <h2 class="fontH">ゲームの遊び方</h2>
+  <p class="fontL">
     ROLE PLAYING TSUWANOは、実際に津和野町にきて遊ぶ観光型エンターテイメントです。
     4つのアクションで楽しめる、とてもシンプルで分かりやすい内容となっています。
   </p>
+  <div class="four-actions">
+    <h3 class="fontM">４つのアクション</h3>
+    <div class="action-detail">
+      <div class="action-title">
+        <img src="">
+      </div>
+      <table>
+        <tr>
+          <td><img src="a.png"></td>
+          <td class="fontEL">城下町を歩きます。
+              名所や隠れたスポットを、注意深く観察しながら町を廻りましょう。
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="action-detail">
+      <div class="action-title">
+        <img src="">
+      </div>
+      <table>
+        <tr>
+          <td><img src="a.png"></td>
+          <td class="fontEL">
+            謎を解きましょう。閃きと知力に行動力も必要となる、
+            難解なミッションがあなたを待っています。
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="action-detail">
+      <div class="action-title">
+        <img src="">
+      </div>
+      <table>
+        <tr>
+          <td><img src="a.png"></td>
+          <td class="fontEL">
+            物語をつなげます。
+            ミッションを達成していくほどに、この町の物語のピースが集まります。
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="action-detail">
+      <div class="action-title">
+        <img src="">
+      </div>
+      <table>
+        <tr>
+          <td><img src="a.png"></td>
+          <td class="fontEL">
+            とつぜん、予想外のできごとが起こる事も。
+            新たな物語の始まりや、大切な出会いかもしれません。
+          </td>
+        </tr>
+      </table>
+    </div>
+    <ul class="bottom-menu">
+      <li><a href=""><img src=""></a></li>
+      <li><a href=""><img src=""></a></li>
+    </ul>
+    <div class="background-image">
+      <img src="a.png">
+    </div>
+  </div>
 </div>
 
 

@@ -1,5 +1,11 @@
+.google-map-area iframe.google-map {
+  width: 80%;
+  height: 300px;
+  margin: 0 10%; }
+
 .icon-description {
-  width: 100%; }
+  width: 100%;
+  font-size: 12px; }
   .icon-description li {
     width: 33%;
     float: left;

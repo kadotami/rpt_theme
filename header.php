@@ -19,9 +19,7 @@
     </div>
     <div class="slidemenu-body">
       <ul class="slidemenu-content">
-        <li><a class="menu-item" href="http://google.com">Menu 1</a></li>
-        <li><a class="menu-item" href="http://google.com">Menu 2</a></li>
-        <li><a class="menu-item" href="http://google.com">Menu 3</a></li>
+        
       </ul>
     </div>
   </div>

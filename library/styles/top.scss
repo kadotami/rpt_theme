@@ -1,4 +1,11 @@
+@import 'mixin.scss';
 .top-menu-area {
   padding: 20px 0;
   background: #000;
+  .menu-box {
+    width:80%;
+    margin: 20px 10%;
+    border: solid #fff 3px;
+    @include border-radius(5px);
+  }
 }

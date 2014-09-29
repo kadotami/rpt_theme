@@ -5,5 +5,44 @@
 }
 
 .about-how-to-play {
-  padding: 20px 30px;
+  p {
+    padding: 20px 30px;
+  }
+  .four-actions {
+    position: relative;
+    margin-top: 30px;
+    padding: 20px 0;
+    .action-title {
+      width: 92%;
+      margin: 0 4%;
+      background: #223366;
+    }
+    table {
+      width: 90%;
+      margin: 0 5%;
+      tr {
+        td:first-child {
+          width: 40%;
+          img {
+            width: 100%;
+          }
+        }
+        td:nth-child(2) {
+          color: #fff;
+          padding: 5px;
+          background: #333;
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
 }
