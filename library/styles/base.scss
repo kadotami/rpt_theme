@@ -96,3 +96,23 @@ img {
   background-position: center;
 }
 
+.title-image {
+  width: 60%;
+  margin: 10px 20% 20px;
+  img {
+    width: 100%;
+  }
+}
+
+.bottom-menu {
+  margin: 0 0 15px;
+  li {
+    width: 50%;
+    float: left;
+    img {
+      width: 50%;
+      margin: 0 25%;
+    }
+  }
+}
+

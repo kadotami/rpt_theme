@@ -81,10 +81,3 @@
       width: 40%; }
       .story-detail-block tr td:first-child img {
         width: 100%; }
-
-.bottom-menu li {
-  width: 50%;
-  float: left; }
-  .bottom-menu li img {
-    width: 50%;
-    margin: 0 25%; }

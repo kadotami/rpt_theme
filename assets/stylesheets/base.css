@@ -92,3 +92,18 @@ img {
   background-repeat: no-repeat;
   background-image: url("../images/menu_button_back.png");
   background-position: center; }
+
+.title-image {
+  width: 60%;
+  margin: 10px 20% 20px; }
+  .title-image img {
+    width: 100%; }
+
+.bottom-menu {
+  margin: 0 0 15px; }
+  .bottom-menu li {
+    width: 50%;
+    float: left; }
+    .bottom-menu li img {
+      width: 50%;
+      margin: 0 25%; }

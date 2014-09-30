@@ -5,7 +5,7 @@ Template Name: About
 ?>
 <?php get_header(); ?>
 <div class='title-image about-title'>
-<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/about-title.png" />
+<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/title/about.png" />
 </div>
 
 <h4 class="fontN">ROLE PLAYING TSUWANO についてと遊び方</h4>
@@ -56,11 +56,11 @@ Template Name: About
     <h3 class="fontM">４つのアクション</h3>
     <div class="action-detail">
       <div class="action-title">
-        <img src="">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/about/walk_text.png">
       </div>
       <table>
         <tr>
-          <td><img src="a.png"></td>
+          <td><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/about/walk_pic.png"></td>
           <td class="fontEL">城下町を歩きます。
               名所や隠れたスポットを、注意深く観察しながら町を廻りましょう。
           </td>
@@ -69,11 +69,11 @@ Template Name: About
     </div>
     <div class="action-detail">
       <div class="action-title">
-        <img src="">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/about/think_text.png">
       </div>
       <table>
         <tr>
-          <td><img src="a.png"></td>
+          <td><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/about/think_pic.png"></td>
           <td class="fontEL">
             謎を解きましょう。閃きと知力に行動力も必要となる、
             難解なミッションがあなたを待っています。
@@ -83,11 +83,11 @@ Template Name: About
     </div>
     <div class="action-detail">
       <div class="action-title">
-        <img src="">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/about/connect_text.png">
       </div>
       <table>
         <tr>
-          <td><img src="a.png"></td>
+          <td><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/about/connect_pic.png"></td>
           <td class="fontEL">
             物語をつなげます。
             ミッションを達成していくほどに、この町の物語のピースが集まります。
@@ -97,11 +97,11 @@ Template Name: About
     </div>
     <div class="action-detail">
       <div class="action-title">
-        <img src="">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/about/bug_text.png">
       </div>
       <table>
         <tr>
-          <td><img src="a.png"></td>
+          <td><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/about/bug_pic.png"></td>
           <td class="fontEL">
             とつぜん、予想外のできごとが起こる事も。
             新たな物語の始まりや、大切な出会いかもしれません。

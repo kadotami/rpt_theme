@@ -5,7 +5,13 @@ Template Name: Chicket
 ?>
 <?php get_header(); ?>
 <div class='title-image about-title'>
-<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/title/chicket-title.png" />
+  <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/title/chicket.png" />
+</div>
+<h4>サービスを予約する</h4>
+<div class="implementation-list">
+  <li><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/chicket/button.png"></li>
+  <li><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/chicket/button.png"></li>
+  <div class="clear-both"></div>
 </div>
 <?php
   if(have_posts()) :

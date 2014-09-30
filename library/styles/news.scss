@@ -1,0 +1,23 @@
+.news-post {
+  width: 70%;
+  margin: 20px 15%;
+}
+.news-post-list {
+  width: 70%;
+  margin: 0 15%;
+  td:first-child {
+    width: 30%;
+    img {
+      width: 100%;
+    }
+  }
+  td:nth-child(2) {
+    padding: 5px;
+  }
+}
+
+
+.post-navigation {
+  width: 300px;
+  margin: 0 auto 20px;
+}
