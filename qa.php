@@ -5,7 +5,7 @@ Template Name: QA
 ?>
 <?php get_header(); ?>
 <div class='title-image about-title'>
-<img src="/assets/images/qa-title.png">
+<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/title/qa.png">
 </div>
 
 <div class="schedule-attention fontEL">

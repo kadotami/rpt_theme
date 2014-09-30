@@ -63,7 +63,15 @@ img {
   position: relative; }
 
 .slidemenu .slidemenu-content {
-  position: relative; }
+  position: relative;
+  width: 80%;
+  margin: 20px 10%;
+  border: solid #fff 3px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px; }
   .slidemenu .slidemenu-content li {
     margin: 20px 0; }
 
@@ -94,8 +102,8 @@ img {
   background-position: center; }
 
 .title-image {
-  width: 60%;
-  margin: 10px 20% 20px; }
+  width: 40%;
+  margin: 10px 30% 20px; }
   .title-image img {
     width: 100%; }
 

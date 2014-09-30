@@ -1,9 +1,11 @@
 <?php get_header(); ?>
 <div class='title-image about-title'>
-<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/title/chicket-title.png" />
+<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/title/top.png" />
 </div>
 <h6>城下町を舞台に、謎を解いて物語をつなぐ観光型エンターテイメント</h6>
-<img src='top_background.png'>
+<div class="top-image">
+	<img src='<?php bloginfo('stylesheet_directory'); ?>/assets/images/top_image.png'>
+</div>
 <div class='top-black-area'>
 	<div class="menu-box">
 		<ul class="menu-block">

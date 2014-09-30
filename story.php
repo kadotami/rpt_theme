@@ -24,15 +24,15 @@ Template Name: Story
     </p>
   </div>
   <div class="story-back-image">
-    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/main/back.png">
+    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/main_back.png">
   </div>
 </div>
 
 <div class="story-link-area">
   <h5 class="fontEL">新人探偵のアナタが解き明かす、2つの謎めいた物語</h5>
   <ul class="story-link">
-    <li><a><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/main/link1.png"></a></li>
-    <li><a><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/main/link2.png"></a></li>
+    <li><a href="#story-one"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/main_link1.png"></a></li>
+    <li><a href="#story-two"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/main_link2.png"></a></li>
     <div class="clear-both"></div>
   </ul>
   <h3>▼<br>▼</h3>
@@ -41,7 +41,7 @@ Template Name: Story
 <div id="story-one" class="story-block">
   <div class="story-contents main-contents">
     <div class='story-title-image'>
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/1/title.png">
+      <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/1_title.png">
     </div>
     <p class="fontL">
       何でもないよくある田舎町。「おやすみ」と布団に潜り込む。
@@ -50,7 +50,7 @@ Template Name: Story
     <table class="story-detail-block">
       <tr>
         <td>
-          <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/1/pic1.png">
+          <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/1_pic1.png">
         </td>
         <td class="fontEL">
           ある深夜、謎のメールを受信する。
@@ -64,7 +64,7 @@ Template Name: Story
     <table class="story-detail-block">
       <tr>
         <td>
-          <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/1/pic2.png">
+          <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/1_pic2.png">
         </td>
         <td class="fontEL">
           どうやら、本当に調査の実力がある者に、
@@ -85,7 +85,7 @@ Template Name: Story
     </ul>
   </div>
   <div class="story-back-image">
-    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/1/back.png">
+    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/1_back.png">
   </div>
 </div>
 
@@ -93,7 +93,7 @@ Template Name: Story
   <h3>▼<br>▼</h3>
   <div class="story-contents main-contents">
     <div class='story-title-image'>
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/2/title.png">
+      <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/2_title.png">
     </div>
     <p class="fontL">
       私の愛する静かな城下町。この町と運命をともにして死ぬ。
@@ -102,7 +102,7 @@ Template Name: Story
     <table class="story-detail-block">
       <tr>
         <td>
-          <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/2/pic1.png">
+          <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/2_pic1.png">
         </td>
         <td class="fontEL">
           とつじょ舞い込んで来た依頼文書、
@@ -115,7 +115,7 @@ Template Name: Story
     <table class="story-detail-block">
       <tr>
         <td>
-          <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/2/pic2.png">
+          <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/2_pic2.png">
         </td>
         <td class="fontEL">
           暗号を解き明かし、怪しい異邦人たちの足跡を追いながら、正体を暴こう。
@@ -133,6 +133,6 @@ Template Name: Story
     </ul>
   </div>
   <div class="story-back-image">
-    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/2/back.png">
+    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/2_back.png">
   </div>
 </div>

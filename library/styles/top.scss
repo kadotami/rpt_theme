@@ -1,4 +1,11 @@
 @import 'mixin.scss';
+.top-image {
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}
+
 .top-black-area {
   padding: 20px 0;
   background: #000;

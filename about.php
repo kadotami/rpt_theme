@@ -34,15 +34,17 @@ Template Name: About
 
 <div class='about-gray-area'>
   <h3 class="fontH">サービスの詳細</h3>
-  <p class="fontEL">
-    料金   :¥1,500(予約なしの場合¥1,800)<br>
-    かかる時間:制限時間は4時間です(食事時間含む)<br>
-    参加の仕方:SCHEDULEページから予約をしてください<br>
-    運営母体 :ROLE PLAYING TSUWANO実行委員会<br>
-    準備物  :QRコードなどを利用するため携帯電話が必須です<br>
-    会場   :島根県津和野町(アクセスマップをご覧下さい)<br>
-    注意事項 :SCHEDULEページにございます<br>
-    お問い合せ:rpt@rptsuwano.jp
+  <p class="fontEL survice">
+    内容　　　：町を歩いて謎を解き、町の物語を集めるゲームです<br>
+    料金　　　：￥1,500(予約なしの場合￥2,000)<br>
+    時間　　　：11:30~15：00<br>
+    参加方法　：SCHEDULEページから予約をしてください<br>
+    準備物　　：携帯電話が必須です(QRコード利用のため)<br>
+    会場　　　：島根県津和野町(アクセスマップをご覧下さい)<br>
+    受付場所　：島根県鹿足郡津和野町後田453-1<br>
+    注意事項　：SCHEDULEページにございます<br>
+    運営　　　：任意団体ロールプレイングツワノ<br>
+    お問い合せ：rpt@rptsuwano.jp<br>
   </p>
 </div>
 

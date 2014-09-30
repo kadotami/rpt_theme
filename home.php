@@ -12,9 +12,9 @@
 	<tr class="news-post-list">
 		<td class="post-image">
 			<?php if (has_post_thumbnail()) : ?>
-				<?php the_post_thumbnail(array(100,100)); ?>
+				<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array(100,100)); ?></a>
 			<?php else: ?>
-				<img src="<?php echo get_template_directory_uri(); ?>/img/noimage.png" width="100" height="100">
+				<a href="<?php the_permalink(); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/no_image.png" width="100" height="100"></a>
 			<?php endif; ?>
 		</td>
 		<td><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>

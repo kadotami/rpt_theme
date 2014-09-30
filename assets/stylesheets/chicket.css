@@ -1,0 +1,28 @@
+/* clearfix */
+.clearfix {
+  *zoom: 1; }
+  .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden; }
+
+.to-attention {
+  position: absolute;
+  top: 37px;
+  right: 0;
+  width: 25%; }
+  .to-attention img {
+    width: 100%; }
+
+.implementation-list {
+  margin: 20px 0 30px; }
+  .implementation-list li {
+    width: 46%;
+    float: left;
+    margin: 0 2%;
+    background: #000; }
+    .implementation-list li img {
+      width: 100%;
+      vertical-align: middle; }
