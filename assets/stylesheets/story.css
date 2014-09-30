@@ -1,3 +1,72 @@
+.story-block {
+  position: relative;
+  padding: 20px 0 20px;
+  z-index: 0; }
+  .story-block p {
+    padding: 0 5%; }
+  .story-block .story-contents {
+    position: relative;
+    z-index: 5; }
+    .story-block .story-contents .story-title {
+      width: 60%;
+      margin: 0 20% 20px;
+      background: #fff; }
+      .story-block .story-contents .story-title img {
+        width: 100%; }
+    .story-block .story-contents .story-title-image {
+      width: 56%;
+      margin: 20px 22%; }
+      .story-block .story-contents .story-title-image img {
+        width: 100%; }
+  .story-block .story-back-image {
+    position: absolute;
+    bottom: 0;
+    z-index: 1; }
+    .story-block .story-back-image img {
+      width: 100%; }
+  .story-block .main-bottom-button li {
+    width: 50%;
+    float: left; }
+  .story-block .story-bottom-area {
+    position: absolute;
+    width: 100%;
+    bottom: 25px;
+    z-index: 2; }
+
+.story-main {
+  background: #80adda; }
+  .story-main .main-contents {
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 160px; }
+    .story-main .main-contents p {
+      margin: 10px 0; }
+
+#story-one {
+  background: #9abadd; }
+  #story-one .story-contents {
+    padding-bottom: 200px; }
+
+#story-two {
+  background: #000; }
+  #story-two .story-contents {
+    padding-bottom: 200px; }
+
+.story-link-area {
+  margin: 20px 0; }
+  .story-link-area ul li {
+    width: 30%;
+    float: left;
+    margin: 0 10%;
+    padding: 5px 0;
+    background: #000;
+    -moz-border-radius: 8px;
+    border-radius: 8px; }
+    .story-link-area ul li img {
+      width: 90%;
+      margin: 0 5%;
+      vertical-align: top; }
+
 .story-detail-block {
   width: 94%;
   margin: 30px 3%; }
@@ -6,8 +75,16 @@
     .story-detail-block tr td {
       vertical-align: middle;
       font-size: 13px;
-      line-height: 1.4em; }
+      line-height: 1.4em;
+      padding: 0 10px; }
     .story-detail-block tr td:first-child {
       width: 40%; }
       .story-detail-block tr td:first-child img {
         width: 100%; }
+
+.bottom-menu li {
+  width: 50%;
+  float: left; }
+  .bottom-menu li img {
+    width: 50%;
+    margin: 0 25%; }

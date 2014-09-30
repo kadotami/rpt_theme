@@ -1,9 +1,16 @@
-.top-menu-area {
+.top-black-area {
   padding: 20px 0;
   background: #000; }
-  .top-menu-area .menu-box {
+  .top-black-area .menu-box {
     width: 80%;
     margin: 20px 10%;
     border: solid #fff 3px;
-    -moz-border-radius: 5px;
-    border-radius: 5px; }
+    -moz-border-radius: 8px;
+    border-radius: 8px; }
+    .top-black-area .menu-box .menu-block {
+      margin: 20px 0; }
+      .top-black-area .menu-box .menu-block .top-menu {
+        width: 60%;
+        margin: 0 10%; }
+        .top-black-area .menu-box .menu-block .top-menu img {
+          width: 100%; }

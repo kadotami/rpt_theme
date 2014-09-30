@@ -13,7 +13,7 @@ li {
   list-style: none;
 }
 
-h2,h3,h4 {
+h2,h3,h4,h5,h6 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -44,10 +44,15 @@ img {
   width: 240px;
   position: fixed;
   visibility: hidden;
+  background: #000;
   z-index: -1;
 }
 .slidemenu .slidemenu-header {
+  color: #fff;
   position: relative;
+  li {
+    font-size: 20px;
+  }
 }
 .slidemenu .slidemenu-body {
   height: 100%;
@@ -56,6 +61,9 @@ img {
 }
 .slidemenu .slidemenu-content {
   position: relative;
+  li {
+    margin: 20px 0;
+  }
 }
 
 #header{
@@ -66,6 +74,16 @@ img {
   height: $header_height;
   z-index: 10;
   overflow: none;
+  .header-logo {
+    width: 100%;
+    max-width: $content_width;
+    margin: 0 auto;
+    img {
+      width: 70%;
+      height: $header_height - 24px;
+      margin: 12px 15%;
+    }
+  }
 }
 
 .header-button {

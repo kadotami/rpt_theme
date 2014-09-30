@@ -5,7 +5,7 @@ Template Name: About
 ?>
 <?php get_header(); ?>
 <div class='title-image about-title'>
-<img src="/assets/images/about-title.png">
+<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/about-title.png" />
 </div>
 
 <h4 class="fontN">ROLE PLAYING TSUWANO についてと遊び方</h4>
@@ -110,8 +110,8 @@ Template Name: About
       </table>
     </div>
     <ul class="bottom-menu">
-      <li><a href=""><img src=""></a></li>
-      <li><a href=""><img src=""></a></li>
+      <li><a href="/story"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_story"></a></li>
+      <li><a href="/chicket"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_chicket"></a></li>
     </ul>
     <div class="background-image">
       <img src="a.png">
