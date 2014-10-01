@@ -1,8 +1,19 @@
 @import 'mixin.scss';
 .top-image {
+  position: relative;
   width: 100%;
   img {
     width: 100%;
+  }
+  .top-title-area {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    h1 {
+      width: 100%;
+      text-align: center;
+      margin: 20px 0;
+    }
   }
 }
 
@@ -18,10 +29,15 @@
       margin: 20px 0;
       .top-menu {
         width: 60%;
-        margin: 0 10%;
+        margin: 3px 20%;
+        padding: 5px;
+        border-bottom: solid 2px #fff;
         img {
           width: 100%;
         }
+      }
+      .menu-block-first {
+        border-bottom: solid 3px #fff;
       }
     }
   }

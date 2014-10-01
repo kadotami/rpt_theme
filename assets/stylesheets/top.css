@@ -1,7 +1,16 @@
 .top-image {
+  position: relative;
   width: 100%; }
   .top-image img {
     width: 100%; }
+  .top-image .top-title-area {
+    position: absolute;
+    top: 0;
+    width: 100%; }
+    .top-image .top-title-area h1 {
+      width: 100%;
+      text-align: center;
+      margin: 20px 0; }
 
 .top-black-area {
   padding: 20px 0;
@@ -16,6 +25,10 @@
       margin: 20px 0; }
       .top-black-area .menu-box .menu-block .top-menu {
         width: 60%;
-        margin: 0 10%; }
+        margin: 3px 20%;
+        padding: 5px;
+        border-bottom: solid 2px #fff; }
         .top-black-area .menu-box .menu-block .top-menu img {
           width: 100%; }
+      .top-black-area .menu-box .menu-block .menu-block-first {
+        border-bottom: solid 3px #fff; }

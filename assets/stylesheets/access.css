@@ -10,3 +10,9 @@
     width: 33%;
     float: left;
     text-align: center; }
+
+.map-image-area {
+  width: 90%;
+  margin: 0 5%; }
+  .map-image-area img {
+    width: 100%; }

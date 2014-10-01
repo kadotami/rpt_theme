@@ -73,7 +73,10 @@ img {
   -o-border-radius: 8px;
   border-radius: 8px; }
   .slidemenu .slidemenu-content li {
-    margin: 20px 0; }
+    width: 90%;
+    margin: 20px 5%;
+    padding: 5px 0;
+    border-bottom: solid 3px #fff; }
 
 #header {
   position: fixed;
@@ -115,3 +118,9 @@ img {
     .bottom-menu li img {
       width: 50%;
       margin: 0 25%; }
+
+.seg-bar {
+  width: 100%;
+  margin-bottom: 30px; }
+  .seg-bar img {
+    width: 100%; }

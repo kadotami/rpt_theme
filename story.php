@@ -11,11 +11,11 @@ Template Name: Story
     <div class='title-image story-title'>
       <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/title/story.png">
     </div>
-    <h3 class="fontM">謎を解き、城下町の秘密をのぞこう</h3>
+    <h3 class="fontM main-sub-title">謎を解き、城下町の秘密をのぞこう</h3>
     <p class="fontEL">
-      山間の国道9号線を走り続けると、突然現れる鳥居が出迎える。<br>
-      秘境、津和野町。山の中にぽっかり空いた穴に広がる城下町。<br>
-      ここにはひっそりとたくさんの秘密がちりばめられています。<br>
+      山間の国道9号線を走り続けると、<br>突然現れる鳥居が出迎える。<br>
+      秘境、津和野町。<br>山の中にぽっかり空いた穴に広がる城下町。<br>
+      ここにはひっそりとたくさんの秘密が<br>ちりばめられています。<br>
     </p>
     <p class="fontEL">
       アナタには新人探偵として、<br>この秘境の謎を解き明かしてもらいます。<br>
@@ -40,10 +40,10 @@ Template Name: Story
 
 <div id="story-one" class="story-block">
   <div class="story-contents main-contents">
-    <div class='story-title-image'>
+    <div class='story-title-image story-one-title'>
       <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/1_title.png">
     </div>
-    <p class="fontL">
+    <p class="lead-sentence fontL">
       何でもないよくある田舎町。「おやすみ」と布団に潜り込む。
       嫌な予感も不気味な感じも何もない、いつもの夜だった。
     </p>
@@ -75,9 +75,9 @@ Template Name: Story
         </td>
       </tr>
     </table>
+    <h3 class="fontL font-white">秘境と水の物語を解き明かそう</h3>
   </div>
   <div class="story-bottom-area">
-    <h3 class="fontL font-white">秘境と水の物語を解き明かそう</h3>
     <ul class="bottom-menu">
       <li><a href="/about"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_about"></a></li>
       <li><a href="/chicket"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_chicket"></a></li>
@@ -92,10 +92,10 @@ Template Name: Story
 <div id="story-two" class="story-block font-white">
   <h3>▼<br>▼</h3>
   <div class="story-contents main-contents">
-    <div class='story-title-image'>
+    <div class='story-title-image story-two-title'>
       <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/2_title.png">
     </div>
-    <p class="fontL">
+    <p class="lead-sentence fontL">
       私の愛する静かな城下町。この町と運命をともにして死ぬ。
       ところがその日常が、アイツたちの出現で崩れつつある。
     </p>
@@ -123,9 +123,9 @@ Template Name: Story
         </td>
       <tr>
     </table>
+    <h3 class="fontL">怪しい異邦人たちの正体を解き明かそう</h3>
   </div>
   <div class="story-bottom-area">
-    <h3 class="fontL">怪しい異邦人たちの正体を解き明かそう</h3>
     <ul class="bottom-menu">
       <li><a href="/about"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_about"></a></li>
       <li><a href="/chicket"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_chicket"></a></li>

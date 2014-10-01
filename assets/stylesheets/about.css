@@ -1,10 +1,20 @@
-.about-gray-area {
-  margin: 15px 0;
-  padding: 20px 30px;
-  background: #ddd; }
-  .about-gray-area .survice {
-    font-size: 10px; }
+.about-sub-title {
+  margin: 15px 0 40px; }
 
+.about-text-area {
+  padding: 20px 10px; }
+  .about-text-area h3 {
+    margin-bottom: 25px; }
+  .about-text-area .survice {
+    font-size: 10px; }
+  .about-text-area p {
+    margin: 10px 0; }
+
+.about-how-to-play h2 {
+  width: 56%;
+  padding: 20px 7%;
+  margin: 0 15% 20px;
+  border-bottom: solid 2px #000; }
 .about-how-to-play p {
   padding: 20px 30px; }
 .about-how-to-play .four-actions {

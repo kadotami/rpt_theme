@@ -16,12 +16,25 @@
         width: 100%;
       }
     }
+    .main-sub-title {
+      margin-bottom: 50px;
+    }
     .story-title-image {
       width: 56%;
-      margin: 20px 22%;
+      margin: 40px 15% 30px;
+      padding: 0 7% 30px;
       img {
         width: 100%;
       }
+    }
+    .lead-sentence {
+      margin-bottom: 50px;
+    }
+    .story-one-title {
+      border-bottom: solid 2px #000;
+    }
+    .story-two-title {
+      border-bottom: solid 2px #fff;
     }
   }
   .story-back-image {
@@ -51,7 +64,7 @@
   .main-contents {
     font-size: 10px;
     text-align: center;
-    padding-bottom: 160px;
+    padding-bottom: 260px;
     p {
       margin: 10px 0;
     }
@@ -60,14 +73,14 @@
 #story-one {
   background: #9abadd;
   .story-contents {
-    padding-bottom: 200px;
+    padding-bottom: 300px;
   }
 }
 
 #story-two {
   background: #000;
   .story-contents {
-    padding-bottom: 200px;
+    padding-bottom: 300px;
   }
 }
 

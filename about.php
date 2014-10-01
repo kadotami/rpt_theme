@@ -7,9 +7,9 @@ Template Name: About
 <div class='title-image about-title'>
 <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/title/about.png" />
 </div>
+<h4 class="fontN about-sub-title">詳しい情報と遊び方</h4>
 
-<h4 class="fontN">ROLE PLAYING TSUWANO についてと遊び方</h4>
-<div class='about-gray-area'>
+<div class='about-text-area'>
   <h3 class="fontH">ごあいさつ</h3>
   <p class="fontEL">
     ロールプレイングツワノは、若い世代が「津和野いいよね！」
@@ -32,7 +32,11 @@ Template Name: About
   </p>
 </div>
 
-<div class='about-gray-area'>
+<div class="seg-bar">
+  <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/seg_bar.png">
+</div>
+
+<div class='about-text-area'>
   <h3 class="fontH">サービスの詳細</h3>
   <p class="fontEL survice">
     内容　　　：町を歩いて謎を解き、町の物語を集めるゲームです<br>
@@ -46,6 +50,10 @@ Template Name: About
     運営　　　：任意団体ロールプレイングツワノ<br>
     お問い合せ：rpt@rptsuwano.jp<br>
   </p>
+</div>
+
+<div class="seg-bar">
+  <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/seg_bar.png">
 </div>
 
 <div class='about-how-to-play'>
@@ -115,9 +123,6 @@ Template Name: About
       <li><a href="/story"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_story"></a></li>
       <li><a href="/chicket"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_chicket"></a></li>
     </ul>
-    <div class="background-image">
-      <img src="a.png">
-    </div>
   </div>
 </div>
 
