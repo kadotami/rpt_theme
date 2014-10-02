@@ -16,6 +16,7 @@
     </div>
     <div class="slidemenu-body">
       <ul class="slidemenu-content">
+				<li><a href='/'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/top.png" /></a></li>
 				<li><a href='/story'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/story.png" /></a></li>
 				<li><a href='/about'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/about.png" /></a></li>
 				<li><a href='/news'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/news.png" /></a></li>
@@ -23,6 +24,8 @@
 				<li><a href='/qa'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/qa.png" /></a></li>
 				<li><a href='/access'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/access.png" /></a></li>
       </ul>
+      <div class="menu-sns-area">
+      </div>
     </div>
   </div>
   <header id="header">

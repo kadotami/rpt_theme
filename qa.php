@@ -9,7 +9,7 @@ Template Name: QA
 </div>
 
 <div class="schedule-attention fontEL">
-  <h4 class="fontN">注意事項です。よく読んで、万全に楽しんでください！</h4>
+  <h4 class="fontN">注意事項です。<br>よく読んで、万全に楽しんでください！</h4>
   <h3 class="fontH">ROLE PLAYING TSUWANO で遊ぶ前に</h3>
   <p>
     ※1：本サービスではQRコードを利用するなど、携帯電話(スマホ推奨)が必須となります。必ず充電をした上でご持参ください。

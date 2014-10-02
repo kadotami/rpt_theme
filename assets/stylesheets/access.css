@@ -13,6 +13,9 @@
 
 .map-image-area {
   width: 90%;
-  margin: 0 5%; }
+  margin: 0 5% 20px; }
   .map-image-area img {
     width: 100%; }
+
+.access-bar {
+  margin: 40px 0; }

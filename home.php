@@ -38,6 +38,11 @@
 	<div class="next"><?php next_posts_link();?></div>
 </div>
 
+<div class="sns-area">
+	<li><a><img src=""></a></li>
+	<li><a><img src=""></a></li>
+</div>
+
 <ul class="bottom-menu">
 	<li><a href="/story"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_story"></a></li>
 	<li><a href="/chicket"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_chicket"></a></li>
