@@ -29,6 +29,21 @@ img {
 .font-bold {
   font-weight: bold;
 }
+
+.font-lighter {
+  font-weight: lighter;
+}
+
+.blue-sub-title {
+  color: #00253c;
+}
+
+.separate-border {
+  width: 70%;
+  margin: 25px 15% 30px;
+  border-bottom:solid 1px #000;
+}
+
 #main {
   z-index: 1;
   position: relative;
@@ -75,7 +90,7 @@ img {
 
 #header{
   position:fixed;
-  background:#000033;
+  background:#00253c;
   top: 0;
   width: 100%;
   height: $header_height;

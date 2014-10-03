@@ -16,16 +16,16 @@
       margin-bottom: 50px; }
     .story-block .story-contents .story-title-image {
       width: 56%;
-      margin: 40px 15% 30px;
+      margin: 80px 15% 30px;
       padding: 0 7% 30px; }
       .story-block .story-contents .story-title-image img {
         width: 100%; }
     .story-block .story-contents .lead-sentence {
-      margin-bottom: 50px; }
+      margin-bottom: 70px; }
     .story-block .story-contents .story-one-title {
-      border-bottom: solid 2px #000; }
+      border-bottom: solid 1px #000; }
     .story-block .story-contents .story-two-title {
-      border-bottom: solid 2px #fff; }
+      border-bottom: solid 1px #fff; }
   .story-block .story-back-image {
     position: absolute;
     bottom: 0;
@@ -51,7 +51,8 @@
       margin: 10px 0; }
 
 #story-one {
-  background: #9abadd; }
+  background: #9abadd;
+  color: #074265; }
   #story-one .story-contents {
     padding-bottom: 300px; }
 
@@ -59,6 +60,11 @@
   background: #000; }
   #story-two .story-contents {
     padding-bottom: 300px; }
+
+.sub-contents {
+  padding: 20px 0 0; }
+  .sub-contents h3 {
+    margin-top: 50px; }
 
 .story-link-area {
   margin: 20px 0; }

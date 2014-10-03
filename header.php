@@ -20,7 +20,7 @@
 				<li><a href='/story'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/story.png" /></a></li>
 				<li><a href='/about'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/about.png" /></a></li>
 				<li><a href='/news'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/news.png" /></a></li>
-				<li><a href='/chicket'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/chicket.png" /></a></li>
+				<li><a href='/ticket'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/ticket.png" /></a></li>
 				<li><a href='/qa'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/qa.png" /></a></li>
 				<li><a href='/access'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/access.png" /></a></li>
       </ul>

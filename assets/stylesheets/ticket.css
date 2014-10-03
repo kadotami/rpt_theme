@@ -17,12 +17,14 @@
     width: 100%; }
 
 .implementation-list {
-  margin: 20px 0 30px; }
+  margin: 70px 0 60px; }
   .implementation-list li {
     width: 46%;
     float: left;
-    margin: 0 2%;
-    background: #000; }
+    margin: 0 2%; }
     .implementation-list li img {
       width: 100%;
       vertical-align: middle; }
+
+.ticket-attention {
+  margin: 40px 0; }

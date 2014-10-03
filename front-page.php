@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 <div class="top-image">
-	<img src='<?php bloginfo('stylesheet_directory'); ?>/assets/images/top/image.png'>
 	<div class="top-title-area">
-		<h1 class="fontEL font-white">街の秘密をのぞこう</h1>
+		<h1 class="fontEL font-white">町の秘密をのぞこう</h1>
 		<h6 class="fontM font-white">城下町を舞台に、謎を解いて物語をつなぐ観光型エンターテイメント</h6>
 	</div>
+	<img src='<?php bloginfo('stylesheet_directory'); ?>/assets/images/top/top_image.png'>
 </div>
 <div class='top-black-area'>
 	<div class="menu-box">
@@ -24,7 +24,7 @@
 			<li class='top-menu menu-block-first'><a href='/news'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/news.png" /></a></li>
 		</ul>
 		<ul class="menu-block">
-			<li class='top-menu menu-block-first'><a href='/chicket'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/chicket.png" /></a></li>
+			<li class='top-menu menu-block-first'><a href='/ticket'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/ticket.png" /></a></li>
 		</ul>
 		<ul class="menu-block">
 			<li class='top-menu menu-block-first'><a href='/qa'><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/menu/qa.png" /></a></li>

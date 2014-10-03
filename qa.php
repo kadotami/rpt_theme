@@ -8,9 +8,10 @@ Template Name: QA
 <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/title/qa.png">
 </div>
 
-<div class="schedule-attention fontEL">
-  <h4 class="fontN">注意事項です。<br>よく読んで、万全に楽しんでください！</h4>
+<div class="qa-sentence fontEL">
+  <h4 class="fontN blue-sub-title">注意事項<br>よく読んで、万全に楽しんでください！</h4>
   <h3 class="fontH">ROLE PLAYING TSUWANO で遊ぶ前に</h3>
+  <div class="separate-border"></div>
   <p>
     ※1：本サービスではQRコードを利用するなど、携帯電話(スマホ推奨)が必須となります。必ず充電をした上でご持参ください。
   </p>
@@ -23,7 +24,13 @@ Template Name: QA
   <p>
     ※4：本サービスは津和野町の皆さんの協力のもとで成り立っています。津和野町は町が文化財ともなっています。地域と地域住民の方々に迷惑がかかるような行為(ゴミのポイ捨てや乱暴な行為に町を汚すような事)は固く禁じます。皆で気持ちよく楽しんでゲームを楽しんでいただけるよう、ご理解とご協力をお願いいたします。
   </p>
+
+  <div class="qa-bar seg-bar">
+    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/seg_bar.png">
+  </div>
+
   <h3 class="fontH">ー よくある質問 ー</h3>
+  <div class="separate-border"></div>
   <p>
     Q：何か必要なモノはある？<br>
     A：サービスではQRコードを利用するため携帯電話を多用します。充電した上でご持参ください。またQRコード読み込みのアプリケーションのインストールも事前にお願いします。

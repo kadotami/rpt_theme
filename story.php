@@ -11,7 +11,7 @@ Template Name: Story
     <div class='title-image story-title'>
       <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/title/story.png">
     </div>
-    <h3 class="fontM main-sub-title">謎を解き、城下町の秘密をのぞこう</h3>
+    <h3 class="fontM main-sub-title blue-sub-title">謎を解き、城下町の秘密をのぞこう</h3>
     <p class="fontEL">
       山間の国道9号線を走り続けると、<br>突然現れる鳥居が出迎える。<br>
       秘境、津和野町。<br>山の中にぽっかり空いた穴に広がる城下町。<br>
@@ -39,7 +39,7 @@ Template Name: Story
 </div>
 
 <div id="story-one" class="story-block">
-  <div class="story-contents main-contents">
+  <div class="story-contents sub-contents">
     <div class='story-title-image story-one-title'>
       <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/1_title.png">
     </div>
@@ -75,12 +75,12 @@ Template Name: Story
         </td>
       </tr>
     </table>
-    <h3 class="fontL font-white">秘境と水の物語を解き明かそう</h3>
+    <h3 class="fontL font-lighter">秘境と水の物語を解き明かそう</h3>
   </div>
   <div class="story-bottom-area">
     <ul class="bottom-menu">
       <li><a href="/about"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_about"></a></li>
-      <li><a href="/chicket"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_chicket"></a></li>
+      <li><a href="/ticket"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_ticket"></a></li>
       <div class="clear-both"></div>
     </ul>
   </div>
@@ -91,7 +91,7 @@ Template Name: Story
 
 <div id="story-two" class="story-block font-white">
   <h3>▼<br>▼</h3>
-  <div class="story-contents main-contents">
+  <div class="story-contents sub-contents">
     <div class='story-title-image story-two-title'>
       <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/2_title.png">
     </div>
@@ -123,12 +123,12 @@ Template Name: Story
         </td>
       <tr>
     </table>
-    <h3 class="fontL">怪しい異邦人たちの正体を解き明かそう</h3>
+    <h3 class="fontL font-lighter">怪しい異邦人たちの正体を解き明かそう</h3>
   </div>
   <div class="story-bottom-area">
     <ul class="bottom-menu">
       <li><a href="/about"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_about"></a></li>
-      <li><a href="/chicket"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_chicket"></a></li>
+      <li><a href="/ticket"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_ticket"></a></li>
       <div class="clear-both"></div>
     </ul>
   </div>

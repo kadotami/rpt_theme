@@ -21,20 +21,20 @@
     }
     .story-title-image {
       width: 56%;
-      margin: 40px 15% 30px;
+      margin: 80px 15% 30px;
       padding: 0 7% 30px;
       img {
         width: 100%;
       }
     }
     .lead-sentence {
-      margin-bottom: 50px;
+      margin-bottom: 70px;
     }
     .story-one-title {
-      border-bottom: solid 2px #000;
+      border-bottom: solid 1px #000;
     }
     .story-two-title {
-      border-bottom: solid 2px #fff;
+      border-bottom: solid 1px #fff;
     }
   }
   .story-back-image {
@@ -72,6 +72,7 @@
 }
 #story-one {
   background: #9abadd;
+  color: #074265;
   .story-contents {
     padding-bottom: 300px;
   }
@@ -81,6 +82,12 @@
   background: #000;
   .story-contents {
     padding-bottom: 300px;
+  }
+}
+.sub-contents {
+  padding: 20px 0 0;
+  h3 {
+    margin-top: 50px;
   }
 }
 

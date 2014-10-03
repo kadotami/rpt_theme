@@ -2,7 +2,7 @@
 <div class='title-image news-title'>
   <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/title/news.png">
 </div>
-<h3 class="fontN">ROLE PLAYING TSUWANO の最新情報</h3>
+<h3 class="fontN blue-sub-title">ROLE PLAYING TSUWANO の最新情報</h3>
 <table class="news-post">
 <?php
 	if(have_posts()) :
@@ -45,7 +45,7 @@
 
 <ul class="bottom-menu">
 	<li><a href="/story"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_story"></a></li>
-	<li><a href="/chicket"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_chicket"></a></li>
+	<li><a href="/ticket"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_ticket"></a></li>
 	<div class="clear-both"></div>
 </ul>
 

@@ -7,10 +7,11 @@ Template Name: About
 <div class='title-image about-title'>
 <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/title/about.png" />
 </div>
-<h4 class="fontN about-sub-title">詳しい情報と遊び方</h4>
+<h4 class="fontN about-sub-title blue-sub-title">詳しい情報と遊び方</h4>
 
 <div class='about-text-area'>
-  <h3 class="fontH">ごあいさつ</h3>
+  <h2 class="fontH">ごあいさつ</h3>
+  <div class="separate-border"></div>
   <p class="fontEL">
     ロールプレイングツワノは、若い世代が「津和野いいよね！」
     と語って楽しんで欲しい、という想いから始まりました。
@@ -37,7 +38,8 @@ Template Name: About
 </div>
 
 <div class='about-text-area'>
-  <h3 class="fontH">サービスの詳細</h3>
+  <h2 class="fontH">サービスの詳細</h3>
+  <div class="separate-border"></div>
   <p class="fontEL survice">
     内容　　　：町を歩いて謎を解き、町の物語を集めるゲームです<br>
     料金　　　：￥1,500(予約なしの場合￥2,000)<br>
@@ -58,6 +60,7 @@ Template Name: About
 
 <div class='about-how-to-play'>
   <h2 class="fontH">ゲームの遊び方</h2>
+  <div class="separate-border"></div>
   <p class="fontL">
     ROLE PLAYING TSUWANOは、実際に津和野町にきて遊ぶ観光型エンターテイメントです。
     4つのアクションで楽しめる、とてもシンプルで分かりやすい内容となっています。
@@ -121,7 +124,7 @@ Template Name: About
     </div>
     <ul class="bottom-menu">
       <li><a href="/story"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_story"></a></li>
-      <li><a href="/chicket"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_chicket"></a></li>
+      <li><a href="/ticket"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/bottom_button/to_ticket"></a></li>
     </ul>
   </div>
 </div>

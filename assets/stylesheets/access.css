@@ -1,3 +1,6 @@
+.access-map-area h4 {
+  margin: 0 0 40px; }
+
 .google-map-area iframe.google-map {
   width: 80%;
   height: 300px;
@@ -19,3 +22,12 @@
 
 .access-bar {
   margin: 40px 0; }
+
+.access-red-bg {
+  background: #af4f7c; }
+
+.access-blue-bg {
+  background: #4494bd; }
+
+.access-yellow-bg {
+  background: #ddc133; }

@@ -1,13 +1,3 @@
-/**
- * sp-slidemenu.js
- *
- * @version  0.1.0
- * @url https://github.com/be-hase/sp-slidemenu
- *
- * Copyright 2013 be-hase.com, Inc.
- * Licensed under the MIT License:
- * http://www.opensource.org/licenses/mit-license.php
- */
 
 ;(function(window, document, undefined) {
 "use strict";
