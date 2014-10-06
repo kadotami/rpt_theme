@@ -27,6 +27,9 @@ h2, h3, h4, h5, h6 {
 img {
   vertical-align: bottom; }
 
+a {
+  display: block; }
+
 .clear-both {
   clear: both; }
 
@@ -98,13 +101,13 @@ img {
   z-index: 10;
   overflow: none; }
   #header .header-logo {
-    width: 100%;
+    width: 208px;
     max-width: 720px;
     margin: 0 auto; }
     #header .header-logo img {
-      width: 70%;
+      width: 208px;
       height: 13px;
-      margin: 12px 15%; }
+      margin: 12px auto; }
 
 .header-button {
   width: 36px;
@@ -126,6 +129,10 @@ img {
   .bottom-menu li {
     width: 50%;
     float: left; }
+    .bottom-menu li a {
+      display: block;
+      position: relative;
+      z-index: 10; }
     .bottom-menu li img {
       width: 50%;
       margin: 0 25%; }
@@ -135,3 +142,12 @@ img {
   margin-bottom: 30px; }
   .seg-bar img {
     width: 100%; }
+
+.footer {
+  width: 100%; }
+  .footer .privacy-policy-link {
+    float: left; }
+  .footer .copy-right {
+    float: right;
+    text-align: right;
+    font-size: 7px; }

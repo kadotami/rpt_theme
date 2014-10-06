@@ -55,7 +55,7 @@ Template Name: About
 </div>
 
 <div class="seg-bar">
-  <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/seg_bar2.png">
+  <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/seg_bar.png">
 </div>
 
 <div class='about-how-to-play'>

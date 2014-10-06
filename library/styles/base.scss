@@ -21,6 +21,9 @@ h2,h3,h4,h5,h6 {
 img {
   vertical-align: bottom;
 }
+a {
+  display: block;
+}
 
 .clear-both {
   clear: both;
@@ -97,13 +100,13 @@ img {
   z-index: 10;
   overflow: none;
   .header-logo {
-    width: 100%;
+    width: 208px;
     max-width: $content_width;
     margin: 0 auto;
     img {
-      width: 70%;
+      width: 208px;
       height: $header_height - 24px;
-      margin: 12px 15%;
+      margin: 12px auto;
     }
   }
 }
@@ -131,6 +134,11 @@ img {
   li {
     width: 50%;
     float: left;
+    a{
+      display: block;
+      position: relative;
+      z-index: 10;
+    }
     img {
       width: 50%;
       margin: 0 25%;
@@ -143,5 +151,16 @@ img {
   margin-bottom: 30px;
   img {
     width: 100%;
+  }
+}
+.footer {
+  width: 100%;
+  .privacy-policy-link {
+    float: left;
+  }
+  .copy-right {
+    float: right;
+    text-align: right;
+    font-size: 7px;
   }
 }

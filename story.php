@@ -35,7 +35,6 @@ Template Name: Story
     <li><a href="#story-two"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/main_link2.png"></a></li>
     <div class="clear-both"></div>
   </ul>
-  <h3>▼<br>▼</h3>
 </div>
 
 <div id="story-one" class="story-block">
@@ -90,7 +89,6 @@ Template Name: Story
 </div>
 
 <div id="story-two" class="story-block font-white">
-  <h3>▼<br>▼</h3>
   <div class="story-contents sub-contents">
     <div class='story-title-image story-two-title'>
       <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/2_title.png">
@@ -136,3 +134,6 @@ Template Name: Story
     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/2_back.png">
   </div>
 </div>
+<?php get_footer(); ?>
+</body>
+</html>

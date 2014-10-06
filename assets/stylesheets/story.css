@@ -36,10 +36,8 @@
     width: 50%;
     float: left; }
   .story-block .story-bottom-area {
-    position: absolute;
     width: 100%;
-    bottom: 25px;
-    z-index: 2; }
+    margin-bottom: 25px; }
 
 .story-main {
   background: #80adda; }
@@ -59,7 +57,7 @@
 #story-two {
   background: #000; }
   #story-two .story-contents {
-    padding-bottom: 300px; }
+    padding-bottom: 325px; }
 
 .sub-contents {
   padding: 20px 0 0; }
