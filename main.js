@@ -1,1 +1,1 @@
-(function(){SpSlidemenu({main:"#main",button:".menu-button-left",slidemenu:".slidemenu-left",direction:"left"})}).call(this),function(){console.log("sampleああああ")}.call(this);
+(function(){SpSlidemenu({main:"#main",button:".menu-button-left",slidemenu:".slidemenu-left",direction:"left"}),window.onload=function(a){return function(){return a.divObj=new fx.Scroll(null,{duration:1e3})}}(this),this.pageScroll=function(a){return function(b){return a.divObj.scrollTo(b)}}(this)}).call(this),function(){console.log("sampleああああ")}.call(this);

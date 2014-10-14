@@ -17,5 +17,6 @@ Version: 1.0
 @import 'assets/stylesheets/story.css';
 @import 'assets/stylesheets/news.css';
 @import 'assets/stylesheets/ticket.css';
+@import 'assets/stylesheets/thanks.css';
 
-
+@import "assets/stylesheets/pc/base.css" only screen and (min-width:960px);

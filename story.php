@@ -31,8 +31,8 @@ Template Name: Story
 <div class="story-link-area">
   <h5 class="fontEL">新人探偵のアナタが解き明かす、2つの謎めいた物語</h5>
   <ul class="story-link">
-    <li><a href="#story-one"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/main_link1.png"></a></li>
-    <li><a href="#story-two"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/main_link2.png"></a></li>
+    <li onClick="pageScroll('story-one')"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/main_link1.png"></li>
+    <li onClick="pageScroll('story-two')"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/main_link2.png"></li>
     <div class="clear-both"></div>
   </ul>
 </div>

@@ -4,6 +4,9 @@
 	<meta charset="utf-8">
 	<title>RolePlayingTsuwano</title>
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
+	<?php wp_enqueue_script('prototype.js', get_bloginfo('template_url').'/assets/javascripts/prototype.js'); ?>
+	<?php wp_enqueue_script('moo-fx.js', get_bloginfo('template_url').'/assets/javascripts/moo-fx.js'); ?>
+	<?php wp_enqueue_script('moo-fx-pack.js', get_bloginfo('template_url').'/assets/javascripts/moo-fx-pack.js'); ?>
 	<?php wp_enqueue_script('sp-slidemenu.js', get_bloginfo('template_url').'/assets/javascripts/sp-slidemenu.js'); ?>
 	<?php wp_enqueue_script('main.js', get_bloginfo('template_url').'/assets/javascripts/main.js'); ?>
 	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
