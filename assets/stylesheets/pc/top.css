@@ -1,0 +1,41 @@
+/* clearfix */
+.clearfix {
+  *zoom: 1; }
+  .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden; }
+
+.top-image .top-title-area {
+  position: absolute;
+  top: 20px; }
+  .top-image .top-title-area .top-sub-title {
+    margin: 40px 0; }
+.top-image img {
+  margin-top: -70px; }
+
+.top-black-area {
+  padding: 20px 0;
+  background: #000; }
+  .top-black-area .menu-box {
+    width: 60%;
+    margin: 20px 20%;
+    border: solid #fff 3px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px; }
+    .top-black-area .menu-box .menu-block {
+      margin: 20px 0; }
+      .top-black-area .menu-box .menu-block .top-menu {
+        width: 60%;
+        margin: 3px 20%;
+        padding: 5px;
+        border-bottom: solid 2px #fff; }
+        .top-black-area .menu-box .menu-block .top-menu img {
+          width: 100%; }
+      .top-black-area .menu-box .menu-block .menu-block-first {
+        border-bottom: solid 3px #fff; }

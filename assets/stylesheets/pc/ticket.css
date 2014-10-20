@@ -1,0 +1,30 @@
+/* clearfix */
+.clearfix {
+  *zoom: 1; }
+  .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden; }
+
+.to-attention {
+  position: absolute;
+  top: 44px;
+  right: 20px;
+  width: 15%; }
+  .to-attention img {
+    width: 100%; }
+
+.implementation-list {
+  margin: 70px 0 60px; }
+  .implementation-list li {
+    width: 46%;
+    float: left;
+    margin: 0 2%; }
+    .implementation-list li img {
+      width: 100%;
+      vertical-align: middle; }
+
+.ticket-attention {
+  margin: 40px 0; }

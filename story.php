@@ -43,8 +43,8 @@ Template Name: Story
       <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/1_title.png">
     </div>
     <p class="lead-sentence fontL">
-      何でもないよくある田舎町。「おやすみ」と布団に潜り込む。
-      嫌な予感も不気味な感じも何もない、いつもの夜だった。
+      何でもないよくある田舎町。<br>「おやすみ」と布団に潜り込む。<br>
+      嫌な予感も不気味な感じも何もない、<br>いつもの夜だった。
     </p>
     <table class="story-detail-block">
       <tr>
@@ -94,8 +94,8 @@ Template Name: Story
       <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/story/2_title.png">
     </div>
     <p class="lead-sentence fontL">
-      私の愛する静かな城下町。この町と運命をともにして死ぬ。
-      ところがその日常が、アイツたちの出現で崩れつつある。
+      私の愛する静かな城下町。<br>この町と運命をともにして死ぬ。<br>
+      ところがその日常が、<br>アイツたちの出現で崩れつつある。
     </p>
     <table class="story-detail-block">
       <tr>

@@ -2,7 +2,7 @@
 <div class="top-image">
 	<div class="top-title-area">
 		<h1 class="fontEL font-white">町の秘密をのぞこう</h1>
-		<h6 class="fontM font-white">城下町を舞台に、謎を解いて物語をつなぐ観光型エンターテイメント</h6>
+		<h6 class="top-sub-title fontM font-white">城下町を舞台に、謎を解いて物語をつなぐ観光型エンターテイメント</h6>
 	</div>
 	<img src='<?php bloginfo('stylesheet_directory'); ?>/assets/images/top/top_image.png'>
 </div>

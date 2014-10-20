@@ -22,4 +22,8 @@
 .post-navigation {
   width: 300px;
   margin: 0 auto 20px;
+  .prev,.next{
+    width: 50%;
+    margin-bottom:30px;
+  }
 }

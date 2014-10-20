@@ -1,0 +1,73 @@
+@import "../setting";
+body {
+  background: #ddd;
+  font-size: 16px;
+  line-height: 1.4;
+}
+h1 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 20px;
+}
+
+.header-button {
+  display: none;
+}
+
+#main {
+  z-index: 1;
+  padding-top: $pc-header_height;
+  width: 1024px;
+  max-width: 1024px;
+  margin:0 auto;
+  overflow: scroll;
+}
+
+#contents{
+  width: 720px;
+  float: right;
+  background: #fff;
+}
+
+.pc-side-menu {
+  display: block;
+  @include border-radius(8px);
+  border: solid 2px #fff;
+  position: fixed;
+  background: #000;
+  width: 240px;
+  top: $pc-header_height + 40px;
+  left: -512px + 20px;
+  margin-left: 50%;
+  z-index: 5;
+  li {
+    width: 90%;
+    margin: 10px 5%;
+    padding: 5px 0;
+    border-bottom:solid 3px #fff;
+  }
+}
+
+#header{
+  position:fixed;
+  background:#00253c;
+  top: 0;
+  width: 100%;
+  height: $pc-header_height;
+  z-index: 10;
+  overflow: none;
+  .header-logo {
+    width: 416px;
+    max-width: $content_width;
+    margin: 0 auto;
+    img {
+      width: 416px;
+      height: $pc-header_height - 16px;
+      margin: 8px auto;
+    }
+  }
+}

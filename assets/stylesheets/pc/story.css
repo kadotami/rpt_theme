@@ -1,0 +1,25 @@
+.story-block p {
+  font-size: 18px;
+  line-height: 1.3; }
+.story-block .story-contents .lead-sentence {
+  font-size: 20px; }
+.story-block .story-contents h3 {
+  font-size: 28px; }
+
+.story-main .main-contents {
+  padding-bottom: 500px; }
+
+.story-link-area {
+  margin: 35px 0; }
+  .story-link-area h5 {
+    font-size: 24px;
+    margin-bottom: 20px; }
+
+#story-one .story-contents {
+  padding-bottom: 520px; }
+
+#story-two .story-contents {
+  padding-bottom: 580px; }
+
+.story-detail-block tr td {
+  font-size: 18px; }

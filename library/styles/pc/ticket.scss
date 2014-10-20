@@ -1,0 +1,27 @@
+@import "../setting";
+
+.to-attention {
+  position: absolute;
+  top: $pc-header_height;
+  right: 20px;
+  width: 15%;
+  img {
+    width: 100%;
+  }
+}
+.implementation-list {
+  margin: 70px 0 60px;
+  li {
+    width: 46%;
+    float: left;
+    margin: 0 2%;
+    img {
+      width: 100%;
+      vertical-align: middle;
+    }
+  }
+}
+
+.ticket-attention {
+  margin: 40px 0;
+}

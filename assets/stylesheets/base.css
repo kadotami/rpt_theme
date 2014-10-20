@@ -137,6 +137,9 @@ a {
       width: 50%;
       margin: 0 25%; }
 
+.pc-side-menu {
+  display: none; }
+
 .seg-bar {
   width: 90%;
   margin: 0 5% 30px; }

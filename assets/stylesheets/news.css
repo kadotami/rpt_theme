@@ -17,3 +17,6 @@
 .post-navigation {
   width: 300px;
   margin: 0 auto 20px; }
+  .post-navigation .prev, .post-navigation .next {
+    width: 50%;
+    margin-bottom: 30px; }
