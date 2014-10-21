@@ -10,6 +10,7 @@
 
 body {
   background: #ddd;
+  background-image: url(../../images/background.png);
   font-size: 16px;
   line-height: 1.4; }
 

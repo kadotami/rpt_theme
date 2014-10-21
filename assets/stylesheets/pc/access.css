@@ -5,18 +5,4 @@
   height: 400px; }
 
 .icon-description {
-  width: 100%;
   font-size: 20px; }
-  .icon-description li {
-    width: 33%;
-    float: left;
-    text-align: center; }
-
-.map-image-area {
-  width: 90%;
-  margin: 0 5% 20px; }
-  .map-image-area img {
-    width: 100%; }
-
-.access-bar {
-  margin-top: 40px; }

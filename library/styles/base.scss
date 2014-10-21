@@ -159,9 +159,20 @@ a {
   }
 }
 .footer {
+  background: #00253c;
+  color: #fff;
   width: 100%;
   .privacy-policy-link {
     float: left;
+    a {
+      color: #fff;
+    }
+    a:visited {
+      color: #fff;
+    }
+    a:link {
+      color: #fff;
+    }
   }
   .copy-right {
     float: right;

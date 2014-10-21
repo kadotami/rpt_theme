@@ -33,14 +33,24 @@
 	endif;
 ?>
 </table>
+
+
 <div class="post-navigation">
 	<div class="prev"><?php previous_posts_link();?></div>
 	<div class="next"><?php next_posts_link();?></div>
 </div>
 
+<div class="seg-bar access-bar">
+  <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/seg_bar.png">
+</div>
+
+<h3 class="fontN blue-sub-title">ソーシャルメディア</h3>
 <div class="sns-area">
-	<li><a><img src=""></a></li>
-	<li><a><img src=""></a></li>
+	<li><a href="https://www.facebook.com/pages/ROLE-PLAYING-TSUWANO/1535380126696884?fref=ts"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/news/facebook_icon.png"></a></li>
+	<li><a href="https://twitter.com/rptsuwano"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/news/twitter_icon.png"></a></li>
+	<li><span>facebook</span></li>
+	<li><span>twitter</span></li>
+	<div class="clear-both"></div>
 </div>
 
 <ul class="bottom-menu">

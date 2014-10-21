@@ -20,3 +20,13 @@
   .post-navigation .prev, .post-navigation .next {
     width: 50%;
     margin-bottom: 30px; }
+
+.sns-area {
+  margin: 30px 0; }
+  .sns-area li {
+    width: 50%;
+    float: left;
+    text-align: center; }
+    .sns-area li img {
+      width: 25%;
+      margin: 0 37.5%; }

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>RolePlayingTsuwano</title>
+	<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/assets/images/news/favicon.png" >
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
 	<?php wp_enqueue_script('prototype.js', get_bloginfo('template_url').'/assets/javascripts/prototype.js'); ?>
 	<?php wp_enqueue_script('moo-fx.js', get_bloginfo('template_url').'/assets/javascripts/moo-fx.js'); ?>

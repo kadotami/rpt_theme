@@ -147,9 +147,17 @@ a {
     width: 100%; }
 
 .footer {
+  background: #00253c;
+  color: #fff;
   width: 100%; }
   .footer .privacy-policy-link {
     float: left; }
+    .footer .privacy-policy-link a {
+      color: #fff; }
+    .footer .privacy-policy-link a:visited {
+      color: #fff; }
+    .footer .privacy-policy-link a:link {
+      color: #fff; }
   .footer .copy-right {
     float: right;
     text-align: right;
