@@ -14,10 +14,11 @@ Template Name: Access
   <h2 class="fontH">津和野までの移動方法</h2>
   <div class="separate-border"></div>
   <div class='google-map-area'>
-    <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13157.174308251262!2d131.77455409895023!3d34.47007603446008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355b2de25bce3b23%3A0xfe8cfa11294431e9!2z5bO25qC555yM6bm_6Laz6YOh5rSl5ZKM6YeO55S65b6M55Sw44Ot77yW77yV4oiS77yR!5e0!3m2!1sja!2sjp!4v1411346314963" frameborder="0" style="border:0"></iframe>
+    <iframe class='google-map' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3289.2002874464742!2d131.773696!3d34.472443!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355b2e0918211acf%3A0x52640e9a19012b2a!2z5rSl5ZKM6YeO6aeF!5e0!3m2!1sja!2sjp!4v1414045584848" frameborder="0" style="border:0"></iframe></iframe>
   </div>
   <p class="fontEL">
-    「Google マップで見る」から地図にアクセスし、ルート<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/access/route.png">を選択して現在地(出発地点)と移動方法を選択してください。
+    「Google マップで見る」から地図にアクセスし、ルート<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/access/route.png">を選択して現在地(出発地点)と移動方法を選択してください。<br>
+    ※指定してある地点は受付事務所ではございません。受付までは、下部の「津和野までの移動」を参照してください。
   </p>
 
   <div class="seg-bar access-bar">
@@ -34,6 +35,9 @@ Template Name: Access
   <div class='map-image-area'>
     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/access/map.png">
   </div>
+  <p class="fontEL">
+    ※受付事務所は、津和野駅を出てすぐの大通りを、そのまま右に 200m 程直進した右手にございます。
+  </p>
 </div>
 
 <?php get_footer(); ?>

@@ -42,7 +42,9 @@ Template Name: About
   <div class="separate-border"></div>
   <p class="fontEL survice">
     内容　　　：町を歩いて謎を解き、町の物語を集めるゲームです<br>
-    料金　　　：￥1,500(予約なしの場合￥2,000)<br>
+    料金　　　：プレリリース特別価格 500 円(予約なしは 800
+円)！<br>
+    <span class="decoration-line-through">料金　　　：1,500円(予約なしの場合2,000円)</span><br>
     時間　　　：11:30~15：00<br>
     参加方法　：SCHEDULEページから予約をしてください<br>
     準備物　　：携帯電話が必須です(QRコード利用のため)<br>

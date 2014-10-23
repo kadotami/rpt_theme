@@ -30,6 +30,9 @@ img {
 a {
   display: block; }
 
+.decoration-line-through {
+  text-decoration: line-through; }
+
 .clear-both {
   clear: both; }
 

@@ -5,6 +5,9 @@
 		<h6 class="top-sub-title fontM font-white">城下町を舞台に、謎を解いて物語をつなぐ観光型エンターテイメント</h6>
 	</div>
 	<img src='<?php bloginfo('stylesheet_directory'); ?>/assets/images/top/top_image.png'>
+	<div class='attention-image'>
+		<img src='<?php bloginfo('stylesheet_directory'); ?>/assets/images/top/attention_image.png'>
+	</div>
 </div>
 <div class='top-black-area'>
 	<div class="menu-box">
