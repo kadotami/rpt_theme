@@ -30,6 +30,9 @@ img {
 a {
   display: block; }
 
+.font-red {
+  color: #ff0000; }
+
 .decoration-line-through {
   text-decoration: line-through; }
 
